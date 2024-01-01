@@ -1,0 +1,20 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-amplifye15ac9f356f54-staging-04749-authRole",
+      "UnauthRoleArn": "arn:aws:iam::278935596273:role/amplify-amplifye15ac9f356f54-staging-04749-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::278935596273:role/amplify-amplifye15ac9f356f54-staging-04749-authRole",
+      "Region": "ap-northeast-1",
+      "DeploymentBucketName": "amplify-amplifye15ac9f356f54-staging-04749-deployment",
+      "UnauthRoleName": "amplify-amplifye15ac9f356f54-staging-04749-unauthRole",
+      "StackName": "amplify-amplifye15ac9f356f54-staging-04749",
+      "StackId": "arn:aws:cloudformation:ap-northeast-1:278935596273:stack/amplify-amplifye15ac9f356f54-staging-04749/63994860-a83f-11ee-b853-0ed5236d03ad",
+      "AmplifyAppId": "d31d7ojhbm0eho"
+    },
+    "categories": {
+      "auth": {
+        "gamedatamanagerfa38d321": {}
+      }
+    }
+  }
+}
