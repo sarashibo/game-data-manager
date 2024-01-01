@@ -10,11 +10,12 @@ import {
   View,
   Card 
 } from "@aws-amplify/ui-react";
+import { signOut } from 'aws-amplify/auth';
 
 function App() {
 
-  const signOut=()=>{
-
+  const onClickSignOut=async ()=>{
+    await signOut()
   }
   return (
     <div className="App">
@@ -37,7 +38,7 @@ function App() {
         <Image src={logo} className="App-logo" alt="logo" />
         <Heading level={1}>We now have Auth!</Heading>
       </Card>
-      <Button onClick={signOut}>Sign Out</Button>
+      <Button onClick={onClickSignOut}>Sign Out</Button>
     </View>
     </div>
   );
