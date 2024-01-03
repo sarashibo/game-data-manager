@@ -14,6 +14,12 @@
     "categories": {
       "auth": {
         "gamedatamanagerfa38d321": {}
+      },
+      "api": {
+        "gamedatamanager": {}
+      },
+      "storage": {
+        "imagestorage": {}
       }
     }
   }
